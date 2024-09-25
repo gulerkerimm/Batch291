@@ -67,5 +67,7 @@ public class ForLoops02 {
         }
         System.out.println(reverse);
 
+
+        System.out.println("-----------");
     }
 }
