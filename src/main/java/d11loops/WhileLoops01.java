@@ -27,7 +27,7 @@ public class WhileLoops01 {
         System.out.println("--------------");
         //2.yol: while loop
         int i = 3;
-        while (i < 7) {
+        while (i <=7) {
             System.out.println(i);
             i++;
         }
