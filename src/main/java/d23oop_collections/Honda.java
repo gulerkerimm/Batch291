@@ -1,4 +1,4 @@
-package d22oop;
+package d23oop_collections;
 
 public abstract class Honda {
 
@@ -26,6 +26,15 @@ public abstract class Honda {
     //Bir abstract class içinde birden fazla body’siz (gövdesiz) metod, yani abstract metod bulunabilir
     //Abstract Class’lar başka class’lar tarafından extends edilerek kullanılabilir.
     //Java’da bir abstract class, normal (somut) bir class’in child’i olabilir.
+
+    //7) Final methodlar override edilemedigi icin, abstract olamazlar.
+    // (***“final” bir access modifier değildir. “final,” bir Java anahtar kelimesidir)
+
+
+
+
+
+
 
 
 
