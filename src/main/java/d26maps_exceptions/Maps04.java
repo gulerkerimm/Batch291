@@ -152,6 +152,22 @@ public class Maps04 {
         System.out.println(countryPopulation);
         //{France=null, Germany=83000000, Italy=null, Netherland=18000000, Turkiye=83000000, USA=400000000}
 
+        //----------------------------------------------
+
+        /*LinkedHashMap, HashMap'e benzer, ancak ekleme sırasına göre sıralanmış bir şekilde verileri tutar.
+        Yani, LinkedHashMap verileri eklediğiniz sırayla tutar ve bu sırayı korur.
+        Bu nedenle, verileri eklediğiniz sırayla geri almanız gerektiğinde kullanışlı olabilir.
+
+        **ornegin,bir takvim uygulamasında, etkinlikleri tarih sırasına göre tutmak için kullanılabilir.
+        yada bir restoranın sipariş alım sistemi düşünün. Müşterilerin siparişlerini verme sırası,
+        restoranın sipariş hazırlama sırasını belirler.
+
+        Aynı mantık, müşteri hizmetleri çağrı merkezleri, sırayla hizmet veren işletmeler veya
+        benzeri senaryolarda da kullanılabilir.
+        Müşteri veya işlem sıralarını takip etmek için LinkedHashMap tercih edilebilir.LinkedHashMap sınıfı thread-safe degildir
+        */
+
+
 
 
     }
